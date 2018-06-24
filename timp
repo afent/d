@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
 		cout << "Number of parameters must be 3" << endl;
 		return 1;
 	}
-	
+	        
 	{
 		cout << "The second parameter must contain only 1 character" << endl;
 		return 2;
@@ -25,8 +25,7 @@ int main(int argc, char* argv[])
 	}
 	if (argv[2][0] == '+')
 		cout << a + b << endl;
-	else if (argv[2][0] == '-')
-		cout << a - b << endl;
+	
 	else if (argv[2][0] == '*')
 		cout << a * b << endl;
 	else if (argv[2][0] == '/')
